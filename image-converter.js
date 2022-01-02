@@ -1,3 +1,9 @@
+/**
+ * @file Generates binary blobs from images for FIS-Control device.
+ * @author Stefan Bieger
+ * @author Paweł Szydło
+ */
+
 "use strict";
 
 import {UPNG} from './libs/UPNG.js';
@@ -86,21 +92,21 @@ export function convertNeedlesAndDigits(needle1, needle2, needle3, digit0, digit
         let segment = new DataView(outputBuffer, 1024 * 32 * offset);
 
         if (imageArray[offset] !== undefined) {
-            const img = imageArray[offset];
+            const image = imageArray[offset];
 
-            const pixels = img.length / 4;
+            const pixels = image.length / 4;
             if (pixels <= 8192) {
                 for (let i = 0; i < pixels; i++) {
-                    segment.setUint8(i * 4 + 0, img[i * 4 + 2]); // B
-                    segment.setUint8(i * 4 + 1, img[i * 4 + 1]); // G
-                    segment.setUint8(i * 4 + 2, img[i * 4 + 0]); // R
-                    segment.setUint8(i * 4 + 3, img[i * 4 + 3]); // A
+                    segment.setUint8(i * 4 + 0, image[i * 4 + 2]); // B
+                    segment.setUint8(i * 4 + 1, image[i * 4 + 1]); // G
+                    segment.setUint8(i * 4 + 2, image[i * 4 + 0]); // R
+                    segment.setUint8(i * 4 + 3, image[i * 4 + 3]); // A
                 }
             }
         }
     }
 
-    // Images 3+ are the digits.
+    // Images [3-14] are the digits.
     for (let offset = 3; offset < 15; offset++) {
         let segment = new DataView(outputBuffer, 2730 * (offset - 3) + 98304);
 
