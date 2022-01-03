@@ -111,7 +111,7 @@ export function TableConfig(controlUnitIndex, rows) {
  *
  * @param {number} measurement Measurement value from the control unit tables.
  * @param {string} label Max 30 characters.
- * @param {string } unit Max 20 characters. Use *lambda* to get the lambda symbol.
+ * @param {string} unit Max 20 characters. Use *lambda* to get the lambda symbol.
  * @param {number} decimals How many decimal places to show on digital gauges.
  * @param {number} factor Conversion factor index.
  * @param {number} pressure Pressure calculation value index.

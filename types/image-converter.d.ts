@@ -5,7 +5,9 @@
  *
  * @returns {Uint8ClampedArray|undefined} RGBA array if input provided, otherwise undefined.
  */
-export function rawPngArrayBufferToClampedRGBA(rawPngData: ArrayBuffer): Uint8ClampedArray | undefined;
+export function rawPngArrayBufferToClampedRGBA(
+  rawPngData: ArrayBuffer
+): Uint8ClampedArray | undefined;
 /**
  * Returns PNG images dimensions.
  *
@@ -36,7 +38,23 @@ export function getImageDimensions(rawPngData: ArrayBuffer): [number, number];
  * @returns {Blob} A blob containing data that can be loaded into FIS-Control as "needles".
  * @throws {Error} Needle images must be provided.
  */
-export function convertNeedlesAndDigits(needle1: ArrayBuffer, needle2: ArrayBuffer, needle3: ArrayBuffer, digit0?: ArrayBuffer, digit1?: ArrayBuffer, digit2?: ArrayBuffer, digit3?: ArrayBuffer, digit4?: ArrayBuffer, digit5?: ArrayBuffer, digit6?: ArrayBuffer, digit7?: ArrayBuffer, digit8?: ArrayBuffer, digit9?: ArrayBuffer, digitDot?: ArrayBuffer, digitMinus?: ArrayBuffer): Blob;
+export function convertNeedlesAndDigits(
+  needle1: ArrayBuffer,
+  needle2: ArrayBuffer,
+  needle3: ArrayBuffer,
+  digit0?: ArrayBuffer,
+  digit1?: ArrayBuffer,
+  digit2?: ArrayBuffer,
+  digit3?: ArrayBuffer,
+  digit4?: ArrayBuffer,
+  digit5?: ArrayBuffer,
+  digit6?: ArrayBuffer,
+  digit7?: ArrayBuffer,
+  digit8?: ArrayBuffer,
+  digit9?: ArrayBuffer,
+  digitDot?: ArrayBuffer,
+  digitMinus?: ArrayBuffer
+): Blob;
 /**
  * Converts background images into a single binary object.
  *
@@ -46,4 +64,7 @@ export function convertNeedlesAndDigits(needle1: ArrayBuffer, needle2: ArrayBuff
  * @returns {Blob} A blob containing data that can be loaded into FIS-Control as "background".
  * @throws {Error} Gauges background must be provided.
  */
-export function convertBackgrounds(gaugesBackground: ArrayBuffer, tablesBackground?: ArrayBuffer): Blob;
+export function convertBackgrounds(
+  gaugesBackground: ArrayBuffer,
+  tablesBackground?: ArrayBuffer
+): Blob;
