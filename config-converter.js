@@ -4,6 +4,8 @@
  * @author Paweł Szydło
  */
 
+"use strict";
+
 import {control_units_index} from "./control-units.js";
 import {Config} from "./config-model.js";
 

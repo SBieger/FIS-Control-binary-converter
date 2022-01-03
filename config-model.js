@@ -4,6 +4,8 @@
  * @author Paweł Szydło
  */
 
+"use strict";
+
 /**
  * Gauge configuration object.
  *

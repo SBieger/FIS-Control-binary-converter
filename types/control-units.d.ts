@@ -1,7 +1,3 @@
-/**
- * @file List of control units supported by the FIS-Control device.
- * @author Stefan Bieger
- */
 export const EV_AllWheelContrHA1VW37X_002015_values: string[];
 export const EV_AllWheelContrHA1VW37X_002015_formula: number[];
 export const EV_ECM14TFS01104E906023BN_008006_values: string[];
