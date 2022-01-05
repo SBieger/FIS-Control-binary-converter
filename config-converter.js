@@ -50,7 +50,7 @@ function xmodemCRC(bufferView) {
  * @throws {Error} Config must be correctly filled.
  */
 export function convertConfigToBinary(config) {
-  if (!config || !(config instanceof Config)) {
+  if (!config) {
     throw new Error('Config is required.');
   }
   if (!config.gaugeConfigs || config.gaugeConfigs.length !== 3) {
