@@ -196,11 +196,11 @@ export class Config {
   /**
    * Full FIS-Control configuration object.
    *
-   * @param {number} language Index of the selected language.
-   * @param {number} autostart Index of the selected autostart option.
-   * @param {number} bluetooth Index of the selected bluetooth option.
+   * @param {number} language 0 - English, 1 - German.
+   * @param {number} autostart 0 - off, 1 - on, 2 - on with needle sweep, 3-7 - sweep delay.
+   * @param {number} bluetooth 0 - off after a while, 1 - always on
    * @param {number} car Index of the selected car.
-   * @param {number} layout Index of the selected layout
+   * @param {number} layout 0 - gauges, 1 - virtual cockpit, 2 - back to the future.
    * @param {number} view1 Index of the first table view to show.
    * @param {string} backgroundColor Color in HTML hex format ("#123456").
    * @param {string} fontColor Color in HTML hex format ("#123456").

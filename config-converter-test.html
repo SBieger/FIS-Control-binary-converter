@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FIS-Control config converter test</title>
+  <script type="module">
+    import {convertBinaryToConfig, convertConfigToBinary} from "./config-converter.js";
+
+    function onConfigLoaded(event) {
+      const reader = new FileReader();
+      reader.onload = function () {
+        const originalData = reader.result;
+        const status = document.getElementById('status');
+        const configDisplay = document.getElementById('config');
+        // Loading.
+        status.innerHTML += `Parsing binary data...<br />`;
+        let config;
+        try {
+          config = convertBinaryToConfig(originalData);
+        } catch (e) {
+          status.innerHTML += `Config parsing failed with error: ${e}<br/>`;
+          return;
+        }
+        // Print config.
+        configDisplay.innerHTML = JSON.stringify(config, null, 4);
+        // Saving.
+        status.innerHTML += `Saving back as binary data...<br />`;
+        let newData;
+        try {
+          newData = convertConfigToBinary(config);
+        } catch (e) {
+          status.innerHTML += `Config saving failed with error: ${e}`;
+          return;
+        }
+        // Check integrity.
+        status.innerHTML += `Comparing ${originalData.byteLength} bytes...<br />`;
+        const oldDataArray = new Uint8Array(originalData);
+        const newDataArray = new Uint8Array(newData);
+        let checkFailed = false;
+        for (let i = 0; i < oldDataArray.length; i++) {
+          if (i >= newDataArray.length) {
+            status.innerHTML += `New config is too short. Has only ${newData.byteLength} bytes.`;
+            break;
+          }
+          if (oldDataArray[i] !== newDataArray[i]) {
+            checkFailed = true;
+            status.innerHTML += `Configs differ at byte ${i}: original=${oldDataArray[i]}, new=${newDataArray[i]}<br />`;
+          }
+        }
+        // Success.
+        if (!checkFailed) {
+          status.innerHTML += `Success! Original and saved configs are identical.`;
+        }
+      };
+      reader.readAsArrayBuffer(event.target.files[0]);
+    }
+
+    window.onload = () => {
+      let fileInput = document.getElementById("configFile");
+      fileInput.addEventListener('change', (event) => {
+        onConfigLoaded(event);
+      });
+    };
+  </script>
+</head>
+<body>
+<p>Load a valid FIS-Control binary settings file:</p>
+<input id="configFile" type="file"/>
+
+<div id="status"></div>
+<hr/>
+<pre id="config"></pre>
+</body>
+</html>

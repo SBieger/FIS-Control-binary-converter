@@ -37,7 +37,7 @@ export function getImageDimensions(rawPngData: ArrayBuffer): [number, number];
  * @param {ArrayBuffer} [digitDot]
  * @param {ArrayBuffer} [digitMinus]
  *
- * @returns {Blob} A blob containing data that can be loaded into FIS-Control as "needles".
+ * @returns {ArrayBuffer} A buffer that can be loaded into FIS-Control as "needles".
  * @throws {Error} Needle images must be provided.
  */
 export function convertNeedlesAndDigits(
@@ -56,7 +56,7 @@ export function convertNeedlesAndDigits(
   digit9?: ArrayBuffer,
   digitDot?: ArrayBuffer,
   digitMinus?: ArrayBuffer
-): Blob;
+): ArrayBuffer;
 
 /**
  * Converts background images into a single binary object.
@@ -64,10 +64,10 @@ export function convertNeedlesAndDigits(
  * @param {ArrayBuffer} gaugesBackground
  * @param {ArrayBuffer} [tablesBackground]
  *
- * @returns {Blob} A blob containing data that can be loaded into FIS-Control as "background".
+ * @returns {ArrayBuffer} A buffer that can be loaded into FIS-Control as "background".
  * @throws {Error} Gauges background must be provided.
  */
 export function convertBackgrounds(
   gaugesBackground: ArrayBuffer,
   tablesBackground?: ArrayBuffer
-): Blob;
+): ArrayBuffer;
