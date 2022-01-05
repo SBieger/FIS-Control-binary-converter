@@ -3,9 +3,19 @@
  *
  * @param {Config} config Full configuration.
  *
- * @returns {Blob} Binary data that can be loaded into FIS-Control as "settings".
+ * @returns {ArrayBuffer} Binary data that can be loaded into FIS-Control as "settings".
  * @throws {Error} Config must be correctly filled.
  */
-export function convertConfig(config: Config): Blob;
+export function convertConfigToBinary(config: Config): ArrayBuffer;
+
+/**
+ * Converts a binary array into a Config object.
+ *
+ * @param {ArrayBuffer} binaryArray
+ *
+ * @returns {Config} Config object.
+ * @throws {Error} Valid binary array must be provided.
+ */
+export function convertBinaryToConfig(binaryArray: ArrayBuffer): Config;
 
 import {Config} from './config-model.js';
