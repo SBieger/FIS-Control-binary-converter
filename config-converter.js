@@ -6,10 +6,10 @@
 
 "use strict";
 
-import {control_units_index} from "./control-units.js";
 import {
   Config,
-  DigitsConfig, GaugeConfig,
+  DigitsConfig,
+  GaugeConfig,
   ModsConfig,
   NumericalGaugeConfig,
   TableConfig,
