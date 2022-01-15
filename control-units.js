@@ -7,8 +7,8 @@
 "use strict";
 
 /**
- * @typedef {{name: string, values: Object.<number, string>}} ControlUnitConfig
- * @type {Object.<number, ControlUnitConfig>} */
+ * @typedef {{name: string, values: Map<number, string>}} ControlUnitConfig
+ * @type {Map<number, ControlUnitConfig>} */
 export const controlUnits = new Map([
   [73, {
     name: 'EV_AllWheelContrHA1VW37X_002015',
