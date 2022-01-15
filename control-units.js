@@ -13,7 +13,7 @@ export const controlUnits = new Map([
   [73, {
     name: 'EV_AllWheelContrHA1VW37X_002015',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Control Module temperature [°C] - IDE00102'],
       [5, 'Security Access: Number of invalid keys [] - IDE00323'],
@@ -42,7 +42,7 @@ export const controlUnits = new Map([
   [49, {
     name: 'EV_ECM14TFS01104E906023BN_008006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -357,7 +357,7 @@ export const controlUnits = new Map([
   [90, {
     name: 'EV_ECM14TSI01103C906027CF_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -646,7 +646,7 @@ export const controlUnits = new Map([
   [6, {
     name: 'EV_ECM16TDI02103L906023KQ_003009',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -1024,7 +1024,7 @@ export const controlUnits = new Map([
   [79, {
     name: 'EV_ECM18TFS0206C0906264_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -1652,7 +1652,7 @@ export const controlUnits = new Map([
   [95, {
     name: 'EV_ECM18TFS0208V0906264H_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -2267,7 +2267,7 @@ export const controlUnits = new Map([
   [83, {
     name: 'EV_ECM18TFS0208XA906264_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -2894,7 +2894,7 @@ export const controlUnits = new Map([
   [94, {
     name: 'EV_ECM18TFS0218K0906264_002010',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -3432,7 +3432,7 @@ export const controlUnits = new Map([
   [44, {
     name: 'EV_ECM20TDI01103L906018AC_003006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -3888,7 +3888,7 @@ export const controlUnits = new Map([
   [47, {
     name: 'EV_ECM20TDI01103L906018HR_003011',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -4355,7 +4355,7 @@ export const controlUnits = new Map([
   [18, {
     name: 'EV_ECM20TDI01103L906018JH_003005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -4811,7 +4811,7 @@ export const controlUnits = new Map([
   [11, {
     name: 'EV_ECM20TDI01103L906018SJ_003003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -5271,7 +5271,7 @@ export const controlUnits = new Map([
   [26, {
     name: 'EV_ECM20TDI01104L906021BM_002005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -5879,7 +5879,7 @@ export const controlUnits = new Map([
   [41, {
     name: 'EV_ECM20TDI01104L906021BM_002008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -6487,7 +6487,7 @@ export const controlUnits = new Map([
   [31, {
     name: 'EV_ECM20TDI01104L906021EQ_002008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -6938,7 +6938,7 @@ export const controlUnits = new Map([
   [39, {
     name: 'EV_ECM20TDI01104L906026FN_004002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -7538,7 +7538,7 @@ export const controlUnits = new Map([
   [38, {
     name: 'EV_ECM20TDI03L906022NN_A02011',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -8105,7 +8105,7 @@ export const controlUnits = new Map([
   [24, {
     name: 'EV_ECM20TDI03L906022RM_A02005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -8672,7 +8672,7 @@ export const controlUnits = new Map([
   [88, {
     name: 'EV_ECM20TDI03L906022RM_A02008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -9239,7 +9239,7 @@ export const controlUnits = new Map([
   [58, {
     name: 'EV_ECM20TFS0118K2907115AE_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -9614,7 +9614,7 @@ export const controlUnits = new Map([
   [69, {
     name: 'EV_ECM20TFS0118K2907115AG_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -10035,7 +10035,7 @@ export const controlUnits = new Map([
   [34, {
     name: 'EV_ECM20TFS0118K2907115AJ_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -10402,7 +10402,7 @@ export const controlUnits = new Map([
   [37, {
     name: 'EV_ECM20TFS0118K5907115A_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -10788,7 +10788,7 @@ export const controlUnits = new Map([
   [86, {
     name: 'EV_ECM20TFS0118K5907115N_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -11196,7 +11196,7 @@ export const controlUnits = new Map([
   [27, {
     name: 'EV_ECM20TFS0118K5907115_001010',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Coolant temperature [°C] - IDE00025'],
@@ -11559,7 +11559,7 @@ export const controlUnits = new Map([
   [45, {
     name: 'EV_ECM20TFS0118V0907115F_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -12112,7 +12112,7 @@ export const controlUnits = new Map([
   [35, {
     name: 'EV_ECM20TFS0205G0906259C_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -12727,7 +12727,7 @@ export const controlUnits = new Map([
   [28, {
     name: 'EV_ECM20TFS0205G0906259E_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -13307,7 +13307,7 @@ export const controlUnits = new Map([
   [96, {
     name: 'EV_ECM20TFS0205G0906259J_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -13917,7 +13917,7 @@ export const controlUnits = new Map([
   [55, {
     name: 'EV_ECM20TFS0208V0906259A_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -14497,7 +14497,7 @@ export const controlUnits = new Map([
   [82, {
     name: 'EV_ECM20TFS0208V0906259F_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -15107,7 +15107,7 @@ export const controlUnits = new Map([
   [71, {
     name: 'EV_ECM20TFS0208V0906259J_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 15 [V] - IDE00018'],
       [3, 'Voltage terminal 30 [V] - IDE00019'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -15727,7 +15727,7 @@ export const controlUnits = new Map([
   [8, {
     name: 'EV_ECM20TFS0208X0906259_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -16303,7 +16303,7 @@ export const controlUnits = new Map([
   [3, {
     name: 'EV_ECM20TFS0208X0906259_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -16883,7 +16883,7 @@ export const controlUnits = new Map([
   [77, {
     name: 'EV_ECM20TFS0215G0906259_001013',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -17457,7 +17457,7 @@ export const controlUnits = new Map([
   [46, {
     name: 'EV_ECM20TFS0218T2907115_001008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -18021,7 +18021,7 @@ export const controlUnits = new Map([
   [68, {
     name: 'EV_ECM20TFS0218V0906259_001008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -18593,7 +18593,7 @@ export const controlUnits = new Map([
   [42, {
     name: 'EV_ECM20TFS8K2907115L_A01005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -18968,7 +18968,7 @@ export const controlUnits = new Map([
   [59, {
     name: 'EV_ECM20TFS8K2907115L_A01006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -19343,7 +19343,7 @@ export const controlUnits = new Map([
   [56, {
     name: 'EV_ECM25TFS0118S0907404E_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -19861,7 +19861,7 @@ export const controlUnits = new Map([
   [43, {
     name: 'EV_ECM25TFS0118U0907404B_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -20338,7 +20338,7 @@ export const controlUnits = new Map([
   [13, {
     name: 'EV_ECM25TFS0118U0907404C_001001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -20837,7 +20837,7 @@ export const controlUnits = new Map([
   [66, {
     name: 'EV_ECM25TFS0118V0907404E_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -21355,7 +21355,7 @@ export const controlUnits = new Map([
   [33, {
     name: 'EV_ECM25TFS0118V0907404E_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -21873,7 +21873,7 @@ export const controlUnits = new Map([
   [50, {
     name: 'EV_ECM25TFS0118V0907404E_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -22391,7 +22391,7 @@ export const controlUnits = new Map([
   [78, {
     name: 'EV_ECM25TFS0118V0907404H_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -22924,7 +22924,7 @@ export const controlUnits = new Map([
   [62, {
     name: 'EV_ECM25TFS0118V0907404_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -23431,7 +23431,7 @@ export const controlUnits = new Map([
   [22, {
     name: 'EV_ECM25TFS0118V0907404_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -23938,7 +23938,7 @@ export const controlUnits = new Map([
   [54, {
     name: 'EV_ECM25TFS0118V0907404_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -24445,7 +24445,7 @@ export const controlUnits = new Map([
   [36, {
     name: 'EV_ECM27TDI0118K1907401K_001009',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
@@ -25034,7 +25034,7 @@ export const controlUnits = new Map([
   [51, {
     name: 'EV_ECM30BTD0114G0907589A_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -25580,7 +25580,7 @@ export const controlUnits = new Map([
   [40, {
     name: 'EV_ECM30BTD0114G0907589C_001001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Transmission input speed [/min] - IDE00022'],
@@ -26159,7 +26159,7 @@ export const controlUnits = new Map([
   [32, {
     name: 'EV_ECM30BTD0114G0907589C_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Transmission input speed [/min] - IDE00022'],
@@ -26738,7 +26738,7 @@ export const controlUnits = new Map([
   [70, {
     name: 'EV_ECM30BTD0114G0907589F_001008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -27350,7 +27350,7 @@ export const controlUnits = new Map([
   [87, {
     name: 'EV_ECM30BTD0114G0907589G_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -27932,7 +27932,7 @@ export const controlUnits = new Map([
   [1, {
     name: 'EV_ECM30BTD0118K5907589_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -28502,7 +28502,7 @@ export const controlUnits = new Map([
   [80, {
     name: 'EV_ECM30BTD0118K5907589_001009',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -29634,7 +29634,7 @@ export const controlUnits = new Map([
   [75, {
     name: 'EV_ECM30TDI0114G2907401B_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -30206,7 +30206,7 @@ export const controlUnits = new Map([
   [84, {
     name: 'EV_ECM30TDI0118K2907401A_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
@@ -30795,7 +30795,7 @@ export const controlUnits = new Map([
   [97, {
     name: 'EV_ECM30TDI0118K5907401A_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -31353,7 +31353,7 @@ export const controlUnits = new Map([
   [21, {
     name: 'EV_ECM30TDI0118K5907401G_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -31915,7 +31915,7 @@ export const controlUnits = new Map([
   [17, {
     name: 'EV_ECM30TDI0118K5907401G_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -32477,7 +32477,7 @@ export const controlUnits = new Map([
   [30, {
     name: 'EV_ECM30TDI0118K5907401T_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -33042,7 +33042,7 @@ export const controlUnits = new Map([
   [20, {
     name: 'EV_ECM30TDI0118K5907401T_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -33579,7 +33579,7 @@ export const controlUnits = new Map([
   [57, {
     name: 'EV_ECM30TDI0118K5997401B_001003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -34144,7 +34144,7 @@ export const controlUnits = new Map([
   [48, {
     name: 'EV_ECM30TDI0118K5997401E_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -34704,7 +34704,7 @@ export const controlUnits = new Map([
   [72, {
     name: 'EV_ECM30TDI0118K5997401_001006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -35265,7 +35265,7 @@ export const controlUnits = new Map([
   [9, {
     name: 'EV_ECM30TDI0118R0907401J_001008',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Transmission input speed [/min] - IDE00022'],
@@ -35829,7 +35829,7 @@ export const controlUnits = new Map([
   [19, {
     name: 'EV_ECM30TFS0214G0907551G_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -36447,7 +36447,7 @@ export const controlUnits = new Map([
   [93, {
     name: 'EV_ECM30TFS0214G2907551_002003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -37023,7 +37023,7 @@ export const controlUnits = new Map([
   [2, {
     name: 'EV_ECM30TFS0218K0907551C_001005',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -37576,7 +37576,7 @@ export const controlUnits = new Map([
   [81, {
     name: 'EV_ECM30TFS0218K2907551A_002003',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -38152,7 +38152,7 @@ export const controlUnits = new Map([
   [14, {
     name: 'EV_ECM30TFS0218K2907551A_002004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -38728,7 +38728,7 @@ export const controlUnits = new Map([
   [10, {
     name: 'EV_ECM30TFS0218K2907551A_003001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -39284,7 +39284,7 @@ export const controlUnits = new Map([
   [0, {
     name: 'EV_ECM30TFS0218K5907551D_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -39902,7 +39902,7 @@ export const controlUnits = new Map([
   [12, {
     name: 'EV_ECM30TFS0218K5907551E_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -40522,7 +40522,7 @@ export const controlUnits = new Map([
   [4, {
     name: 'EV_ECM30TFS0218K5907551F_001002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -41142,7 +41142,7 @@ export const controlUnits = new Map([
   [25, {
     name: 'EV_ECM30TFS0218K5907551G_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -41763,7 +41763,7 @@ export const controlUnits = new Map([
   [29, {
     name: 'EV_ECM30TFS0218R0907551G_001007',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -42384,7 +42384,7 @@ export const controlUnits = new Map([
   [76, {
     name: 'EV_ECM30TFS8K0907551A_A01002',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -42928,7 +42928,7 @@ export const controlUnits = new Map([
   [5, {
     name: 'EV_ECM30TFS8K0907551_A01006',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [3, 'Coolant temperature [°C] - IDE00025'],
@@ -43472,7 +43472,7 @@ export const controlUnits = new Map([
   [92, {
     name: 'EV_ECM40TFS0114G0906014B_001009',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -44073,7 +44073,7 @@ export const controlUnits = new Map([
   [15, {
     name: 'EV_ECM40TFS0114G0906014_001011',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -44608,7 +44608,7 @@ export const controlUnits = new Map([
   [91, {
     name: 'EV_ECM40TFS0114G0906014_001014',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -45197,7 +45197,7 @@ export const controlUnits = new Map([
   [85, {
     name: 'EV_ECM40TFS0114G0906560C_001013',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -45786,7 +45786,7 @@ export const controlUnits = new Map([
   [23, {
     name: 'EV_ECM40TFS0114G0906560F_001004',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -46374,7 +46374,7 @@ export const controlUnits = new Map([
   [53, {
     name: 'EV_ECM40TFS0114G0906560_001013',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -46954,7 +46954,7 @@ export const controlUnits = new Map([
   [52, {
     name: 'EV_ECM40TFS0114H0907557_001012',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -47543,7 +47543,7 @@ export const controlUnits = new Map([
   [7, {
     name: 'EV_ECM42TDI1114H0907409M_001001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Terminal 15 status-Bits 0-7 [] - IDE00020-ENG57549'],
       [3, 'Engine speed [/min] - IDE00021'],
@@ -48216,7 +48216,7 @@ export const controlUnits = new Map([
   [16, {
     name: 'EV_Kombi_UDS_VDD_AU10_A04396',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [2, 'Engine speed [/min] - IDE00021'],
       [12, 'Vehicle speed [km/h] - IDE00075'],
@@ -48256,7 +48256,7 @@ export const controlUnits = new Map([
   [89, {
     name: 'EV_TCMAL551211_002022',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [4, 'Engine speed [/min] - IDE00021'],
@@ -48356,7 +48356,7 @@ export const controlUnits = new Map([
   [74, {
     name: 'EV_TCMAL991031_002115',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [3, 'Voltage terminal 15 [V] - IDE00018'],
       [4, 'Voltage terminal 30 [V] - IDE00019'],
       [5, 'Voltage terminal 30 [V] - IDE00019'],
@@ -48407,7 +48407,7 @@ export const controlUnits = new Map([
   [65, {
     name: 'EV_TCMDL501021_001021',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Transmission input speed [/min] - IDE00022'],
@@ -48851,7 +48851,7 @@ export const controlUnits = new Map([
   [63, {
     name: 'EV_TCMDL501_A02087',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Transmission input speed [/min] - IDE00022'],
@@ -49232,7 +49232,7 @@ export const controlUnits = new Map([
   [60, {
     name: 'EV_TCMDL501_A02196',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed [/min] - IDE00021'],
       [4, 'Transmission input speed [/min] - IDE00022'],
@@ -49613,7 +49613,7 @@ export const controlUnits = new Map([
   [67, {
     name: 'EV_TCMDQ250021_001001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed-Engine RPM [/min] - IDE00021-ENG99543'],
@@ -49762,7 +49762,7 @@ export const controlUnits = new Map([
   [64, {
     name: 'EV_TCMDQ381061_001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [1, 'Voltage terminal 15 [V] - IDE00018'],
       [2, 'Voltage terminal 30 [V] - IDE00019'],
       [3, 'Engine speed-Engine RPM [/min] - IDE00021-ENG99543'],
@@ -49958,7 +49958,7 @@ export const controlUnits = new Map([
   [61, {
     name: 'EV_TCMDQ500021_001001',
     values: new Map([
-      [0, '<empty>'],
+      [0, ''],
       [2, 'Voltage terminal 15 [V] - IDE00018'],
       [3, 'Voltage terminal 30 [V] - IDE00019'],
       [4, 'Engine speed-Engine RPM [/min] - IDE00021-ENG99543'],
