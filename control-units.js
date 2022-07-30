@@ -10,6 +10,35 @@
  * @typedef {{name: string, values: Map<number, string>}} ControlUnitConfig
  * @type {Map<number, ControlUnitConfig>} */
 export const controlUnits = new Map([
+  [108, {
+    name: 'EV_AllWheelContrHA1VW37X_002001',
+    values: new Map([
+      [0, ''],
+      [1, 'Voltage terminal 30 [V] - IDE00019'],
+      [3, 'Control Module temperature [°C] - IDE00102'],
+      [5, 'Security Access: Number of invalid keys [] - IDE00323'],
+      [6, 'Front left wheel speed [km/h] - IDE00920'],
+      [7, 'Front right wheel speed [km/h] - IDE00921'],
+      [8, 'Left rear wheel speed [km/h] - IDE00922'],
+      [9, 'Right rear wheel speed [km/h] - IDE00923'],
+      [10, 'Clutch temperature [°C] - IDE01617'],
+      [16, 'Haldex clutch status-Degree of blockage [%] - IDE04502-MAS04730'],
+      [17, 'Cooling fin temperature [°C] - IDE05609'],
+      [18, 'Duration of overtemperature [min] - IDE05610'],
+      [19, 'Haldex clutch pump current [A] - IDE05707'],
+      [20, 'Haldex clutch pump PWM signal [%] - IDE05708'],
+      [21, 'Haldex clutch pump voltage [V] - IDE05710'],
+      [22, 'Axle speed deltas [km/h] - IDE06111'],
+      [24, 'Inter-wheel lock switch Hall sensor 1: measured voltage [V] - IDE06877'],
+      [25, 'Inter-wheel lock switch Hall sensor 2: measured voltage [V] - IDE06878'],
+      [29, 'Analysis 3-Exeedance_Intergral_1_traction_slip_controller [] - IDE80003-ENG119372'],
+      [32, 'Analysis 4-Exeedance_Intergral_1_traction_slip_controller [] - IDE80004-ENG119372'],
+      [41, 'Standard - ambient data 1-Unlearning counter [] - MAS00464-MAS00468'],
+      [43, 'Reset counter [] - MAS03129'],
+      [46, 'Pump_Calibration_Values-Calibration_Value_at_1_Bar_Pressure_EEPROM [] - ENG119394-ENG119378'],
+      [61, 'Upper Limit of Temperature Duration [min] - ENG119375']
+    ])
+  }],
   [73, {
     name: 'EV_AllWheelContrHA1VW37X_002015',
     values: new Map([
